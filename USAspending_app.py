@@ -33,7 +33,7 @@ expander_bar = st.expander("About")
 expander_bar.markdown("""
 * **Python libraries:** pandas, streamlit, numpy, plotly, BeautifulSoup, requests, json, base64 
 * **Data source:** [USAspending API](https://www.usaspending.gov).USAspending is the official open data source of federal spending information. It tracks how federal maony is spent in communities accross America and beyond. 
-* **Reference and Credit:** County codes collected from [United States Census Bureau](https://www.census.gov/library/reference/code-lists/ansi.html#county). State Population Data is from [Wikipedia](https://en.wikipedia.org/wiki/List_of_United_States_counties_and_county_equivalents). County GeoJSON files adapted from  [Johan Sundström's  github](https://github.com/johan/world.geo.json) repositories. State latitude and longitude data come from [LatLong.net](https://www.latlong.net/category/states-236-14.html). Combine GeoJSON files using [Find that Postcode](https://findthatpostcode.uk/tools/merge-geojson). 
+* **Reference and Credit:** County codes collected from [United States Census Bureau](https://www.census.gov/library/reference/code-lists/ansi.html#county). State Population Data is from [Wikipedia](https://en.wikipedia.org/wiki/List_of_United_States_counties_and_county_equivalents). County GeoJSON files adapted from  [Gabriel Andrade  Github](https://github.com/GaabrielCoosta/DataAnalyse_newyork) repositories. State latitude and longitude data come from [LatLong.net](https://www.latlong.net/category/states-236-14.html). Combine GeoJSON files using [Find that Postcode](https://findthatpostcode.uk/tools/merge-geojson). 
 """)
 #---------------------------------#
 
