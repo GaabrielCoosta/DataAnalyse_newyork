@@ -36,7 +36,7 @@ expander_bar.markdown("""
 """)
 #---------------------------------#
 
-Select_state = st.selectbox('Selecione o estado ',[' Alabama','Arizona','Arkansas','Califórnia','Colorado','Connecticut','Delaware','Flórida','Geórgia','Havaí','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','Nova York','Carolina do Norte' , 'Dakota do Norte' , 'Ohio' , 'Oklahoma' , 'Oregon' ,'Pensilvânia' , 'Rhode Island' , 'Carolina do Sul', 'South Dakota' , 'Tennessee' , 'Texas' , 'Utah' , 'Vermont' , 'Virginia' , 'Washington' , 'West Virginia' , 'Wisconsin','Wyoming'])
+Select_state = st.selectbox('Selecione o estado',['Alabama','Arizona','Arkansas','Califórnia','Colorado','Connecticut','Delaware','Flórida','Geórgia','Havaí','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','Nova York','Carolina do Norte' , 'Dakota do Norte' , 'Ohio' , 'Oklahoma' , 'Oregon' ,'Pensilvânia' , 'Rhode Island' , 'Carolina do Sul', 'South Dakota' , 'Tennessee' , 'Texas' , 'Utah' , 'Vermont' , 'Virginia' , 'Washington' , 'West Virginia' , 'Wisconsin','Wyoming'])
 
                              
 #############load needed data#######################
