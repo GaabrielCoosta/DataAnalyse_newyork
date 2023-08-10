@@ -20,25 +20,24 @@ st.set_page_config(layout="wide")
 
 #---------------------------------#
 # Title
-st.title("Welcome to the USAspending Explorer!")
+st.title("Bem vindo a CityCode Explorer!")
 
 st.markdown("""
-This app is designed to make federal spending data publicly available. It reveals the whole picture of government grant funding in a specific state. It shows the trend of federal spending data in a state in the course of 2012-2022 and it also serves as a tool to understand federal funding at the county level.
+This application was designed to make relevant information publicly available through thorough research on Brazil. Through data analysis, we reveal insights on various subjects addressed here. It shows the trend of data for each Brazilian state in the period 2012-2022 and also serves as a tool to understand the federal scenario, with a high technical level.
 
-This mapping part of the explorer focuses on federal assistance in the form of grants and shows the total funding going to each county. Total grants are obtained by adding up every grant awarded by the federal government to the county. Blank means that the county has no grants in FY 2022 (2022 fiscal year is from Oct. 2021 to Sep. 2022). Alaska is not included because the county codes of Alaska extracted from USAspening API do not correspond to the ones provided by the United States Census Bureau.""")
+This mapping part of the explorer focuses on the real estate sector of the municipality of São Paulo. These data are related to the registration of real estate in a notary, within temporal ranges. We use several sources to extract information, and we carry out a meticulous detail checking the veracity and integrity of the information collected.""")
 
 #---------------------------------#
 # About
 expander_bar = st.expander("About")
 expander_bar.markdown("""
 * **Python libraries:** pandas, streamlit, numpy, plotly, BeautifulSoup, requests, json, base64 
-* **Data source:** [USAspending API](https://www.usaspending.gov).USAspending is the official open data source of federal spending information. It tracks how federal maony is spent in communities accross America and beyond. 
-* **Reference and Credit:** County codes collected from [United States Census Bureau](https://www.census.gov/library/reference/code-lists/ansi.html#county). State Population Data is from [Wikipedia](https://en.wikipedia.org/wiki/List_of_United_States_counties_and_county_equivalents). County GeoJSON files adapted from  [Gabriel Andrade  Github](https://github.com/GaabrielCoosta/DataAnalyse_newyork) repositories. State latitude and longitude data come from [LatLong.net](https://www.latlong.net/category/states-236-14.html). Combine GeoJSON files using [Find that Postcode](https://findthatpostcode.uk/tools/merge-geojson). 
+* **Data source:** [City Hall of São Paulo website](https://www.prefeitura.sp.gov.br/cidade/secretarias/fazenda/).The São Paulo City Hall website is the official source of open information.  
 """)
 #---------------------------------#
 
 # Make selectbox a sidebar
-Select_state = st.selectbox('Select state',['Alabama','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming'])
+Select_state = st.selectbox('Select',['São Paulo-IPTU','São Paulo-ITBI','Brasil'])
 
                              
 #############load needed data#######################
