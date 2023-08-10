@@ -23,9 +23,9 @@ st.set_page_config(layout="wide")
 st.title("Bem vindo a CityCode Explorer!")
 
 st.markdown("""
-This application was designed to make relevant information publicly available through thorough research on Brazil. Through data analysis, we reveal insights on various subjects addressed here. It shows the trend of data for each Brazilian state in the period 2012-2022 and also serves as a tool to understand the federal scenario, with a high technical level.
+This app is designed to make federal spending data publicly available. It reveals the whole picture of government grant funding in a specific state. It shows the trend of federal spending data in a state in the course of 2012-2022 and it also serves as a tool to understand federal funding at the county level.
 
-This mapping part of the explorer focuses on the real estate sector of the municipality of São Paulo. These data are related to the registration of real estate in a notary, within temporal ranges. We use several sources to extract information, and we carry out a meticulous detail checking the veracity and integrity of the information collected.""")
+This mapping part of the explorer focuses on federal assistance in the form of grants and shows the total funding going to each county. Total grants are obtained by adding up every grant awarded by the federal government to the county. Blank means that the county has no grants in FY 2022 (2022 fiscal year is from Oct. 2021 to Sep. 2022). Alaska is not included because the county codes of Alaska extracted from USAspening API do not correspond to the ones provided by the United States Census Bureau.""")
 
 #---------------------------------#
 # About
