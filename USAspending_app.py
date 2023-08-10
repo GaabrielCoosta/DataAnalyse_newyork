@@ -20,7 +20,7 @@ st.set_page_config(layout="wide")
 
 #---------------------------------#
 # Title
-st.title("Bem vindo a CityCode Explorer!")
+st.title("Welcome to the USAspending Explorer!")
 
 st.markdown("""
 This app is designed to make federal spending data publicly available. It reveals the whole picture of government grant funding in a specific state. It shows the trend of federal spending data in a state in the course of 2012-2022 and it also serves as a tool to understand federal funding at the county level.
