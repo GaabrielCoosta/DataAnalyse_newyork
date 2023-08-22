@@ -32,7 +32,7 @@ This mapping part of the explorer focuses on federal assistance in the form of g
 expander_bar = st.expander("About")
 expander_bar.markdown("""
 * **Python libraries:** pandas, streamlit, numpy, plotly, BeautifulSoup, requests, json, base64 
-* **Data source:** [City Hall of São Paulo website](https://www.prefeitura.sp.gov.br/cidade/secretarias/fazenda/).The São Paulo City Hall website is the official source of open information.  
+* **Analyst:** Gabriel Andrade.  
 """)
 #---------------------------------#
 
