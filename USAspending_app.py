@@ -20,7 +20,7 @@ st.set_page_config(layout="wide")
 
 #---------------------------------#
 # Title
-st.title("Welcome to the USAspending Explorer!")
+st.title("🇺🇸 Welcome to the USAspending Explorer!")
 
 st.markdown("""
 This app is designed to make federal spending data publicly available. It reveals the whole picture of government grant funding in a specific state.
